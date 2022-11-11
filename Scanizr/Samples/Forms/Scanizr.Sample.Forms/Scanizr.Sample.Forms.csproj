@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ReactiveUI.Fody" Version="18.3.1" />
+    <PackageReference Include="Shiny" Version="2.6.3" />
+    <PackageReference Include="Shiny.Extensions.Dialogs.XfMaterial" Version="2.3.1" />
+    <PackageReference Include="Shiny.Framework" Version="2.3.1" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2515" />
+    <PackageReference Include="Xamarin.Essentials.Interfaces" Version="1.7.3.2" />
+  </ItemGroup>
+
+</Project>
