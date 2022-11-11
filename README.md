@@ -1,0 +1,2 @@
+# Scanizr
+Xamarin scanning plugin
