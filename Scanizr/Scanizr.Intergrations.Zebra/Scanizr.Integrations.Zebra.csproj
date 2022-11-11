@@ -1,0 +1,20 @@
+<Project Sdk="MSBuild.Sdk.Extras/3.0.22">
+
+  <PropertyGroup>
+	  <TargetFrameworks>netstandard2.0;MonoAndroid12.0;</TargetFrameworks>
+	  <AssemblyName>Scanizr.Integrations.Zebra</AssemblyName>
+	  <RootNamespace>Scanizr.Integrations.Zebra</RootNamespace>
+	  <Nullable>enable</Nullable>
+	  <GenerateDocumentationFile>True</GenerateDocumentationFile>
+	  <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Platforms\Android\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Scanizr\Scanizr.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,16 @@
+<Project Sdk="MSBuild.Sdk.Extras/3.0.22">
+
+  <PropertyGroup>
+	  <TargetFrameworks>netstandard2.0;MonoAndroid12.0;</TargetFrameworks>
+	  <AssemblyName>Scanizr</AssemblyName>
+	  <RootNamespace>Scanizr</RootNamespace>
+	  <Nullable>enable</Nullable>
+	  <GenerateDocumentationFile>True</GenerateDocumentationFile>
+	  <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Platforms\Android\" />
+  </ItemGroup>
+
+</Project>
